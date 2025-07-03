@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const BASE_URL = "https://optirelief-backend.onrender.com";
+
 
 export const apiService = axios.create({
   baseURL: API_BASE_URL,
