@@ -4,7 +4,7 @@ const BASE_URL = "https://optirelief-backend.onrender.com";
 
 
 export const apiService = axios.create({
-  baseURL: API_BASE_URL,
+  baseURL: BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
