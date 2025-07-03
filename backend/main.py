@@ -16,9 +16,10 @@ app = FastAPI(title="OptiRelief API", description="Smart Resource Distribution f
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",                 
-        "https://navya-devv.github.io",          
-    ],
+  "http://localhost:5173",
+  "https://navya-devv.github.io/OptiRelief",
+],
+
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

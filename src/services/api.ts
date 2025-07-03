@@ -2,7 +2,6 @@ import axios from 'axios';
 
 const BASE_URL = "https://optirelief-backend.onrender.com";
 
-
 export const apiService = axios.create({
   baseURL: BASE_URL,
   headers: {

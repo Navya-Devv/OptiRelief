@@ -3,7 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Navya-Devv.github.io/OptiRelief",
+"homepage": "https://navya-devv.github.io/OptiRelief/",
+
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
