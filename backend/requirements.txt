@@ -1,5 +1,7 @@
+setuptools>=42
+wheel
 fastapi==0.104.1
 uvicorn==0.24.0
-
+pydantic==2.11.1
 networkx==3.2.1
 numpy==1.25.2
