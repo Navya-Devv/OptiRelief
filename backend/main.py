@@ -13,17 +13,21 @@ import numpy as np
 app = FastAPI(title="OptiRelief API", description="Smart Resource Distribution for Disaster Relief")
 
 # Enable CORS
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-  "http://localhost:5173",
-  "https://navya-devv.github.io/OptiRelief",
-],
-
+        "http://localhost:5173",
+        "https://navya-devv.github.io",
+        "https://navya-devv.github.io/OptiRelief",
+        "https://optirelief.netlify.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # Database initialization
 def init_database():
